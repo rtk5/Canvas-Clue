@@ -1,0 +1,2 @@
+[build]
+  publish = "dist"  # Change this to the directory where your main files are located
