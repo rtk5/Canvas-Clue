@@ -3,7 +3,7 @@ import { PuzzlePiece } from './PuzzlePiece';
 import { Dialog } from './Dialog';
 import { saveAnswer, getAnswers, type PuzzleAnswer } from '../utils/storage';
 
-const PUZZLE_IMAGE = "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=90";
+const PUZZLE_IMAGE = "images/ation.png";
 
 export function PuzzleGame() {
   const [selectedPiece, setSelectedPiece] = useState<number | null>(null);
