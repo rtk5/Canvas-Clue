@@ -3,7 +3,7 @@ import { PuzzlePiece } from './PuzzlePiece';
 import { Dialog } from './Dialog';
 import { saveAnswer, getAnswers, type PuzzleAnswer } from '../utils/storage';
 
-const PUZZLE_IMAGE = "images/ation.png";
+const PUZZLE_IMAGE = 'https://img-tan-three.vercel.app/images/ation.png';
 
 export function PuzzleGame() {
   const [selectedPiece, setSelectedPiece] = useState<number | null>(null);
