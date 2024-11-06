@@ -9,7 +9,7 @@ Welcome to **Canvas Clue** – the ultimate data-driven mystery event! Hosted by
 **Canvas Clue** invites you to join the **Multimodal Multiverse** for a thrilling mystery-solving adventure where you analyze diverse datasets, uncover clues, and race to crack the case!
 
 - **Mission**: Analyze custom datasets to uncover clues related to a painting theft, pinpointing details like the targeted artwork, the date of the crime, the crime syndicate, and the timing of the heist.
-- **Challenge Format**: Tackle 5-8 clue-finding challenges, applying data cleaning, outlier analysis, and introductory ML techniques.
+- **Challenge Format**: Tackle 4 complex clue-finding challenges, applying data cleaning, outlier analysis, and introductory ML techniques.
 
 ### ✨ Event Highlights:
 - Dive into real-world data challenges inspired by sitcoms, iconic characters, and hip-hop legends.
