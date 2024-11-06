@@ -1,5 +1,6 @@
 # 🖼️ Canvas Clue🚔 - A Data Mystery Event
 
+**Website Link**
 [Click here!](https://nh-canvas-clue.netlify.app/)
 
 Welcome to **Canvas Clue** – the ultimate data-driven mystery event! Hosted by **Neural Hive x Maaya**, this event challenges participants to harness data analysis and foundational machine learning skills to prevent a major art heist. Compete against other teams to collect clues, solve puzzles, and stop the heist, with a prize pool of ₹5000 up for grabs for the top teams!
