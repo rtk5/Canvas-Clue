@@ -21,13 +21,49 @@ export function Dialog({
   const getPieceInfo = (id: number) => {
     switch (id) {
       case 1:
-        return 'https://docs.google.com/document/d/11bJDikMklGwBH-Q3gwZOjL8xEozBRAeuSvI-wdfVwoA/edit?tab=t.0';
+        return (
+          <a
+            href="https://www.kaggle.com/code/kshirinshetty/notebook307b2166dc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-700"
+          >
+            Detective
+          </a>
+        );
       case 2:
-        return 'https://www.kaggle.com/code/creativestuffwithsam/canvas-clue-pokemon-data-analysis-challenge';
+        return (
+          <a
+            href="https://www.kaggle.com/code/creativestuffwithsam/canvas-clue-pokemon-data-analysis-challenge"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-700"
+          >
+            Pokemon Data Analysis Challenge
+          </a>
+        );
       case 3:
-        return 'https://www.kaggle.com/code/sreecharanpseset/starter-notebook-location';
+        return (
+          <a
+            href="https://www.kaggle.com/code/sreecharanpseset/canvas-clue-location"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-700"
+          >
+            Location
+          </a>
+        );
       case 4:
-        return 'https://www.kaggle.com/code/ayush1272/canvas-clue-task-hip-hop-suspect?scriptVersionId=205232569';
+        return (
+          <a
+            href="https://www.kaggle.com/code/ayush1272/canvas-clue-task-hip-hop-suspect?scriptVersionId=205232569"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-700"
+          >
+            Hip-Hop Suspect Task
+          </a>
+        );
       default:
         return 'Documentation not uploaded';
     }
