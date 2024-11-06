@@ -3,7 +3,7 @@ import { PuzzlePiece } from './PuzzlePiece';
 import { Dialog } from './Dialog';
 import { saveAnswer, getAnswers, type PuzzleAnswer } from '../utils/storage';
 
-const PUZZLE_IMAGE = "ation.png";
+const PUZZLE_IMAGE = 'https://img-tan-three.vercel.app/images/ation.png';
 
 export function PuzzleGame() {
   const [selectedPiece, setSelectedPiece] = useState<number | null>(null);
@@ -37,7 +37,7 @@ export function PuzzleGame() {
             id={id}
             imageUrl={PUZZLE_IMAGE}
             onClick={handlePieceClick}
-            hasAnswer={answers.some(a => a.pieceId === id)}
+            hasAnswer={answers.some((a) => a.pieceId === id)}
           />
         ))}
       </div>
@@ -47,8 +47,13 @@ export function PuzzleGame() {
           <h2 className="text-xl font-semibold mb-4">Your Answers</h2>
           <div className="space-y-4">
             {answers.map((answer) => (
-              <div key={answer.pieceId} className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-                <div className="font-medium text-gray-700">Piece {answer.pieceId}</div>
+              <div
+                key={answer.pieceId}
+                className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg"
+              >
+                <div className="font-medium text-gray-700">
+                  Piece {answer.pieceId}
+                </div>
                 <div className="flex-1">
                   <p className="text-gray-600">{answer.answer}</p>
                   <p className="text-sm text-gray-400 mt-1">

@@ -8,7 +8,12 @@ interface DialogProps {
   onSubmit: (answer: string) => void;
 }
 
-export function Dialog({ isOpen, onClose, selectedPieceId, onSubmit }: DialogProps) {
+export function Dialog({
+  isOpen,
+  onClose,
+  selectedPieceId,
+  onSubmit,
+}: DialogProps) {
   const [input, setInput] = React.useState('');
 
   if (!isOpen) return null;
@@ -16,15 +21,15 @@ export function Dialog({ isOpen, onClose, selectedPieceId, onSubmit }: DialogPro
   const getPieceInfo = (id: number) => {
     switch (id) {
       case 1:
-        return "This section shows the sky. What do you observe in this part?";
+        return 'https://docs.google.com/document/d/11bJDikMklGwBH-Q3gwZOjL8xEozBRAeuSvI-wdfVwoA/edit?tab=t.0';
       case 2:
-        return "Look at the middle-upper portion. What elements stand out?";
+        return 'https://www.kaggle.com/code/creativestuffwithsam/canvas-clue-pokemon-data-analysis-challenge';
       case 3:
-        return "The lower-middle section contains interesting details. What can you spot?";
+        return 'https://www.kaggle.com/code/sreecharanpseset/starter-notebook-location';
       case 4:
-        return "Focus on the bottom part. What catches your attention here?";
+        return 'https://www.kaggle.com/code/ayush1272/canvas-clue-task-hip-hop-suspect?scriptVersionId=205232569';
       default:
-        return "What do you observe in this section?";
+        return 'Documentation not uploaded';
     }
   };
 
@@ -43,18 +48,19 @@ export function Dialog({ isOpen, onClose, selectedPieceId, onSubmit }: DialogPro
         >
           <X size={20} />
         </button>
-        
+
         <h2 className="text-xl font-semibold mb-2">
           Piece {selectedPieceId} Selected
         </h2>
-        
-        <p className="text-gray-600 mb-4">
-          {getPieceInfo(selectedPieceId)}
-        </p>
-        
+
+        <p className="text-gray-600 mb-4">{getPieceInfo(selectedPieceId)}</p>
+
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="answer" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="answer"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Enter your answer
             </label>
             <input
@@ -67,7 +73,7 @@ export function Dialog({ isOpen, onClose, selectedPieceId, onSubmit }: DialogPro
               autoFocus
             />
           </div>
-          
+
           <button
             type="submit"
             className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
