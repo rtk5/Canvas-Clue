@@ -32,9 +32,8 @@ For event updates and announcements, follow us on Instagram: [Neural Hive Profil
 
 ## 📂 Repository Structure
 This repository contains the official website for the **Canvas Clue** event, including:
-- **Documentation**: Instructions, event details, and information on dataset structure.
-- **Questions**: Dataset challenges and accompanying questions for each clue-finding task.
-- **Resources**: Additional guides on data analysis and basic ML techniques to help participants during the event.
+- **Documentation and resources**: Instructions, information on dataset structure, and additional guides on data analysis and basic ML techniques to help participants during the event.
+- **Challenges**: Dataset challenges and accompanying questions for each clue-finding task.
 
 ---
 
@@ -50,4 +49,4 @@ For any questions about the event or repository:
 
 ---
 
-**Canvas Clue** is your opportunity to shine in data analysis and machine learning. Register today, bring your detective skills, and prepare to stop the heist! 🎉
+**Canvas Clue** is your opportunity to shine in data analysis and machine learning. Put on your thinking caps, bring your detective skills, and prepare to stop the heist! 🎉
